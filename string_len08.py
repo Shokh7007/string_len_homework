@@ -8,4 +8,9 @@ def main(s):
     Returns:
         str: answer
     """
-    return
+    l=len(s)//2
+    if len(s)%2==1:
+        return s[l]
+    else:
+        return s[l-1:l+1]
+print(main("diyora")) 
